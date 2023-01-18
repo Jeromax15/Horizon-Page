@@ -77,6 +77,30 @@ body{
     margin: 0 20px;
     padding:20px 15px ;
 }
+.p3{
+    margin: 40px 0;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    /* background-color: rgba(37, 37, 37, 0.63); */
+    background-image: url(/imgs/corruptor.png);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: right;
+    text-align: center;
+}
+.p3 h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight:400;
+}
+.parrafo-2{
+    margin-left: 150px;
+    width: 30vw;
+    text-align: start;
+}
 
 .footer{
     height: 10vh;

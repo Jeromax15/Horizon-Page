@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.295);
+    padding: 20px;
+    border-bottom: 2px gray solid;
+    height: 10vh;
+}
+.logo img{
+    width: 250px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+    /* height: 90vh; */
+}
+.container h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight:400;
+    /* background-color: aquamarine; */
+}
+.p1{
+    display: flex;
+    height: auto;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+    justify-content: end;
+    margin-right: 20px;
+    background:url(/imgs/fondo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+}
+.p1 p{
+    width: 30vw;
+    /* height: fit-content; */
+    margin-right: 150px;
+}
+.p2{
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 100%;
+    display: flex;
+}
+.c1, .c2, .c3{
+    height: auto;
+    color: white;
+    width: 33%;
+    background-color: rgba(68, 63, 63, 0.5);
+    margin: 0 20px;
+    padding:20px 15px ;
+}
+
+.footer{
+    height: 10vh;
+    background-color: aqua;
+}
+
+/* @media (max-width: 1500px){
+    .p1{
+        background-size: 70vh;
+    }
+
+} */

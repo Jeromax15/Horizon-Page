@@ -34,38 +34,34 @@ body{
 .container{
     display: flex;
     flex-wrap: wrap;
-
-    /* height: 90vh; */
-}
-.container h2{
-    margin-top: 15px;
-    margin-bottom: 30px;
-    text-align: center;
-    width: 100%;
-    font-weight:400;
-    /* background-color: aquamarine; */
 }
 .p1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
     height: auto;
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
     width: 100%;
-    justify-content: end;
-    margin-right: 20px;
     background:url(/imgs/fondo.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 80vh;
 }
+.p1 h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight:400;
+}
 .p1 p{
     width: 30vw;
-    /* height: fit-content; */
-    margin-right: 150px;
+    margin-right: 100px;
+    margin-bottom: 40px;
 }
 .p2{
-    background-color: rgba(0, 0, 0, 0.137);
+    /* background-color: rgba(0, 0, 0, 0.137); */
     width: 100%;
     display: flex;
 }
@@ -97,9 +93,54 @@ body{
     font-weight:400;
 }
 .parrafo-2{
-    margin-left: 150px;
+    margin-left: 100px;
     width: 30vw;
-    text-align: start;
+}
+.p4{
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.137); */
+    background-color:  rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);;
+}
+.p4 div{
+    height: auto;
+    color: white;
+    width: 33%;
+    background: rgb(68,63,63);
+    background: linear-gradient(180deg, rgba(68,63,63,0.9528186274509804) 0%, rgba(0,0,0,1) 100%);
+    margin: 0 20px;
+    padding:20px 15px ;
+}
+.p5{
+    width: 100%;
+    height: auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(99,99,99,1) 100%);
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.p5 h2{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight:400;
+}
+.p5 picture img{
+    height: 40vh;
+    margin-right: 20px;
+}
+.p5 .parrafo-3{
+    width: 30vw;
+    color: white;
+    margin-left: 100px;
 }
 
 .footer{

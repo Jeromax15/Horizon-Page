@@ -46,7 +46,7 @@ body{
     background:url(/imgs/fondo.jpg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 80vh;
+    background-size: 100vh;
 }
 .p1 h2{
     margin-top: 15px;
@@ -59,6 +59,7 @@ body{
     width: 30vw;
     margin-right: 100px;
     margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.719);
 }
 .p2{
     /* background-color: rgba(0, 0, 0, 0.137); */
@@ -95,13 +96,14 @@ body{
 .parrafo-2{
     margin-left: 100px;
     width: 30vw;
+    background-color: rgba(255, 255, 255, 0.719);
 }
 .p4{
     display: flex;
     width: 100%;
     /* background-color: rgba(0, 0, 0, 0.137); */
     background-color:  rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
 }
 .p4 div{
     height: auto;
@@ -134,13 +136,47 @@ body{
     font-weight:400;
 }
 .p5 picture img{
-    height: 40vh;
-    margin-right: 20px;
+    height: 35vh;
+    margin-right: 50px;
 }
 .p5 .parrafo-3{
     width: 30vw;
     color: white;
     margin-left: 100px;
+    margin-bottom: 40px;
+}
+.p6{
+    display: flex;
+    width: 100%;
+    background: rgb(99,99,99);
+    background: linear-gradient(180deg, rgba(99,99,99,1) 0%, rgba(255,255,255,1) 100%);
+}
+.p6 div{
+    height: auto;
+    color: white;
+    width: 33%;
+    background: rgb(99,99,99);
+    background: linear-gradient(180deg, rgba(99,99,99,1) 0%, rgba(59,59,59,1) 100%);
+    margin: 0 20px;
+    padding:20px 15px ;
+}
+.p7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:  rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+.p7 .armas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p7 h2{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .footer{

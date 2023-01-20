@@ -1,3 +1,19 @@
+.resumen{
+    background-image: none;
+    height: auto;
+}
+.resumen p{
+    width: 100%;
+    color: #000;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(48,61,189,1) 100%);
+}
+.resumen h1{
+    color: #000;
+}
+.resumen picture img{
+    width: 100%;
+}
 .p1{
     /* background-color: aqua; */
     background-image: none;

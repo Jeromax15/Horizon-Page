@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -16,12 +16,13 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(211, 211, 211, 0.295);
-    padding: 20px;
+    padding: 10px;
     border-bottom: 2px gray solid;
     height: 10vh;
+    width: 100%;
 }
 .logo img{
-    width: 250px;
+    height: 8vh;
 }
 .nav ul{
     display: flex;
@@ -34,6 +35,7 @@ body{
 .container{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .p1{
     display: flex;
@@ -54,6 +56,7 @@ body{
     text-align: center;
     width: 100%;
     font-weight:400;
+    font-size: 3.5rem;
 }
 .p1 p{
     width: 30vw;
@@ -92,6 +95,7 @@ body{
     text-align: center;
     width: 100%;
     font-weight:400;
+    font-size: 3.5rem;
 }
 .parrafo-2{
     margin-left: 100px;
@@ -114,6 +118,34 @@ body{
     margin: 0 20px;
     padding:20px 15px ;
 }
+.armas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-bottom: 30px;
+}
+.armas h2{
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+}
+.armas h2 a{
+    color: white;
+    text-decoration: none;
+}
+.armas picture{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.armas img{
+    width: 80%;
+}
 .p5{
     width: 100%;
     height: auto;
@@ -134,6 +166,7 @@ body{
     text-align: center;
     width: 100%;
     font-weight:400;
+    font-size: 3.5rem;
 }
 .p5 picture img{
     height: 35vh;
@@ -144,10 +177,12 @@ body{
     color: white;
     margin-left: 100px;
     margin-bottom: 40px;
+    margin: 30px 0 40px 100px;
 }
 .p6{
     display: flex;
-    width: 100%;
+    justify-content: space-around;
+    width: 100vw;
     background: rgb(99,99,99);
     background: linear-gradient(180deg, rgba(99,99,99,1) 0%, rgba(255,255,255,1) 100%);
 }
@@ -164,24 +199,65 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color:  rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(106,77,0,1) 52%, rgba(42,30,0,1) 100%);
 }
-.p7 .armas{
+.p7 .pjs{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+.p7 .maquinas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p7 img{
+    width: 80vw;
+}
 .p7 h2{
     width: 100%;
     text-align: center;
     margin: 20px 0;
+    font-size: 3.5rem;
+}
+.p7 h2 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
 }
 
 .footer{
-    height: 10vh;
-    background-color: aqua;
+    height: auto;
+    width: 100%;
+    background-image: url(/imgs/Logo_Horizon_Zero_Dawn.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer span{
+    width: 100%;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer ul .red{
+    display: flex;
+    margin: 8px 0;
+    align-items: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    align-items: center;
+}
+.footer ul li img{
+    width: 30px;
+    margin-right: 5px;
 }
 
 /* @media (max-width: 1500px){

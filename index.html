@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horizon Zero Dawn</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/tablet.css" media="screen and (max-width:1000px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;700&display=swap" rel="stylesheet">
@@ -34,7 +35,11 @@
                     <br>
                     Equipada con su foco y bajo la tutela de Rost, Aloy aprendió a sobrevivir a condiciones duras y a cazar máquinas letales. Pero lo que más quería saber Rost no se lo podía enseñar: la identidad de sus padres y el motivo por el que fue desterrada.
                 </p>
-        </div>
+            </div>
+            <picture >
+                <source media="(max-width:1000px)" srcset="./imgs/fondo.jpg" />
+                <img src="" alt="">
+            </picture>
         </section>
         <section class="p2">
             <div class="c1">
@@ -70,7 +75,10 @@
                     Se reveló que la Mujer Desconocida era Elisabet Sobeck, una brillante roboticista medioambiental del Viejo Mundo y antigua empleada de Faro. Él le suplicó que buscase un modo de derrotar al Enjambre y salvar el mundo. Elisabet aceptó, pero lo extremo de la solución que ella propuso, alias "Zero Dawn", lo aterró.
                 </p>
             </div>
-            
+            <picture>
+                <source media="(max-width: 1000px)" srcset="/imgs/corruptor.png">
+                <img src="" alt="">
+            </picture>
         </section>
         <section class="p4">
             <div>
@@ -104,6 +112,12 @@
                 </p>
             </div>
         </section>
+            <div class="armas">
+                <h2><a href="">Conoce todas las armas</a></h2>
+                <picture>
+                    <img src="/imgs/armas.jpg" alt="">
+                </picture>
+            </div>
         <section class="p5">
             <h2>Parte III: La sombra que se cierne</h2>
             <picture>
@@ -111,8 +125,8 @@
             </picture>
             <div class="parrafo-3">
                 <p>
-                    <h4>El corazón de los Nora</h4>
-                    <br><br>
+                    <!-- <h4>El corazón de los Nora</h4>
+                    <br><br> -->
                     La montaña Madre se reveló como uno de los centros de la cuna de GAIA, que había engendrado a la primera nueva generación de humanos. Aloy, sin embargo, era verdaderamente especial: era un clon de Elisabet Sobeck. 
                     <br><br>
                     Veinte años antes, una señal de origen desconocido se infiltró en GAIA, transformando sus subfunciones en IA caóticas independientes. Una de ellas era el protocolo de extinción HADES, desarrollado para barrer la vida de la faz de la Tierra en caso de un proceso de terraformación fallido. Temiendo que sus sistemas cayeran en manos de un HADES maligno y supercargado y fueran usados para destruir vida en lugar de crearla, GAIA puso su reactor Prime en autodestrucción.
@@ -151,19 +165,34 @@
             </div>
         </section>
         <section class="p7">
-            <div class="armas">
-                <h2><a href="">Conoce todas las armas</a></h2>
-                <picture>
-                    <img src="/imgs/armas.jpg" alt="">
-                </picture>
-            </div>
             <div class="pjs">
                 <h2><a href="/">Conoce todos los personajes</a></h2>
+                <picture>
+                    <img src="/imgs/pjs.jpg" alt="">
+                </picture>
+            </div>
+            <div class="maquinas">
+                <h2><a href="">Conoce todas las maquinas</a></h2>
+                <picture>
+                    <img src="/imgs/maquinas2.jpg" alt="">
+                </picture>
             </div>
         </section>
     </main>
     <footer class="footer">
-
+        <span>Página diseñada por Lucas Cobanera Alucen</span>
+        <br><br>
+        <span>Redes Sociales: </span><br>
+        <ul>
+            <li class="red"><img src="/imgs/logos/instagram.png" alt=""><a href="">Instagram</a></li>
+            <li class="red"><img src="/imgs/logos/facebook.png" alt=""><a href="">Facebook</a></li>
+            <li class="red"><img src="/imgs/logos/github.png" alt=""><a href="">Github</a></li>
+            <li class="red"><img src="/imgs/logos/linkedin.png" alt=""><a href="">Linkedin</a></li>
+        </ul>
+        <picture>
+            <source media="(max-width: 1000px)" srcset="/imgs/Logo_Horizon_Zero_Dawn.svg.png">
+            <img src="" alt="">
+        </picture>
     </footer>
 </body>
 </html>

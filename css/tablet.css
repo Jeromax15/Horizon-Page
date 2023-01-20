@@ -1,0 +1,102 @@
+.p1{
+    /* background-color: aqua; */
+    background-image: none;
+}
+.p1 div{
+    width: 100%;
+}
+.p1 div p{
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: start;
+    margin: 0 0 0 10px;
+}
+.p1 picture img{
+    width: 100vw;
+}
+.p2{
+    flex-wrap: wrap;
+}
+.p2 div{
+    width: 100%;
+    margin: 20px 0;
+    text-align: justify;
+}
+.p3{
+    width: 100%;
+    background-image: none;
+}
+.p3 div{
+    width: 100%;
+}
+.p3 .parrafo-2{
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: start;
+    margin: 0 0 0 10px;
+}
+.p3 picture img{
+    width: 100vw;
+}
+.p4{
+    flex-wrap: wrap;
+}
+.p4 div{
+    width: 100%;
+    margin: 20px 0;
+    text-align: justify;
+}
+.p5{
+    flex-direction: row;
+    justify-content: center;
+}
+.p5 picture img{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+.p5 .parrafo-3{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: start;
+    margin: 20px 0 40px 10px;
+}
+.p6{
+    flex-wrap: wrap;
+}
+.p6 div{
+    width: 100%;
+    margin: 20px 0;
+    text-align: justify;
+}
+.footer{
+    /* background-image: url(/imgs/Logo_Horizon_Zero_Dawn.svg.png);
+    background-size: contain;
+    background-position: right; */
+    background-image: none;
+    height: auto;
+}
+.footer picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer picture img{
+    width: 50vw;
+}
+.footer span{
+    /* background-color: rgba(0, 0, 0, 0.514); */
+    color: black;
+    width: 100%;
+}
+.footer ul{
+    flex-direction: row;    
+}
+.footer ul .red{
+    margin: 0 15px 5px 5px;
+    align-items: end;
+}
+.footer ul .red a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+}

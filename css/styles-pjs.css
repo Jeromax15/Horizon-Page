@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-bottom: 2px gray solid;
+    height: 10vh;
+    width: 100%;
+}
+.logo img{
+    height: 8vh;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+}
+.container{
+    margin: 0 200px;
+}
+.resumen-pj{
+    /* margin: 0 200px; */
+    /* width: 100%; */
+    background-image: url(/imgs/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+    justify-content: end;
+}
+.resumen-pj h1{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.resumen-pj h3{
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.resumen-pj p{
+    color: white;
+    width: 30vw;
+    text-align: justify;
+    margin-right: 20px;
+    /* padding-bottom: 150px; */
+    margin-bottom: 20px;
+}
+.personajes{
+    width: 100%;
+    margin-top: 50px;
+}
+.personajes img{
+    width: 20%;
+    margin-left: 100px;
+}
+.personajes span{
+    width: 50%;
+}
+.personajes .rost{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.personajes .rost h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+.personajes .rost figcaption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .personajes .rost figcaption span{
+    width: 50%;
+} */
+/* .personajes .rost figcaption img{
+    width: 20%;
+    margin-left: 100px;
+} */
+.personajes .varl{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.personajes .varl h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+.personajes .varl figcaption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .personajes .varl figcaption span{
+    width: 50%;
+} */
+/* .personajes .varl figcaption img{
+    width: 20%;
+    margin-left: 100px;
+} */
+.personajes .avad{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.personajes .avad h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+.personajes .avad figcaption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .personajes .avad figcaption span{
+    width: 50%;
+} */
+/* .personajes .avad figcaption img{
+    width: 20%;
+    margin-left: 100px;
+} */
+.personajes .erend{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.personajes .erend h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+.personajes .erend figcaption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .personajes .erend figcaption span{
+    width: 50%;
+} */
+/* .personajes .erend figcaption img{
+    width: 20%;
+    margin-left: 100px;
+} */
+.personajes .vanasha{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.personajes .vanasha h2{
+    margin-left: 20px;
+    font-weight: 100;
+}
+.personajes .vanasha figcaption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* .personajes .vanasha figcaption span{
+    width: 50%;
+} */
+/* .personajes .vanasha figcaption img{
+    width: 20%;
+    margin-left: 100px;
+} */
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-image: url(/imgs/Logo_Horizon_Zero_Dawn.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer span{
+    width: 100%;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer ul .red{
+    display: flex;
+    margin: 8px 0;
+    align-items: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    align-items: center;
+}
+.footer ul li img{
+    width: 30px;
+    margin-right: 5px;
+}

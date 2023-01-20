@@ -97,6 +97,7 @@
     align-items: end;
 }
 .footer ul .red a{
+    width: 100%;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
 }

@@ -81,7 +81,24 @@ body{
 }
 .personajes img{
     margin-left:0 ;
+    margin-right: 0;
 }
 .personajes span{
+    width: 100%;
+    padding-right: 15px;
+}
+.maquinas .mq-1 p{
+    width: 100%;
+}
+.maquinas h4{
+    margin-left: 15px;
+}
+.maquinas img{
+    padding: 0;
+}
+.maquinas .mq-2{
+    width: 100%;
+}
+.maquinas .mq-3{
     width: 100%;
 }

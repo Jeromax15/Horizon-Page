@@ -272,6 +272,7 @@ body{
 .footer ul li a{
     text-decoration: none;
     align-items: center;
+    color: black;
 }
 .footer ul li img{
     width: 30px;

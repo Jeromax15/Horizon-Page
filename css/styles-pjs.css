@@ -34,9 +34,9 @@ body{
     margin: 0 10px;
     color: rgb(0, 0, 0);
 }
-.container{
+/* .container{
     margin: 0 200px;
-}
+} */
 .resumen-pj{
     /* margin: 0 200px; */
     /* width: 100%; */
@@ -76,11 +76,22 @@ body{
     margin-top: 50px;
 }
 .personajes img{
-    width: 20%;
-    margin-left: 100px;
+    width: 18%;
+    /* margin-left: 100px; */
 }
 .personajes span{
-    width: 50%;
+    width: 40%;
+    text-align: justify;
+}
+.personajes h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.personajes figcaption{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .personajes .rost{
     width: 100%;
@@ -90,18 +101,7 @@ body{
     margin-left: 20px;
     font-weight: 100;
 }
-.personajes .rost figcaption{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-/* .personajes .rost figcaption span{
-    width: 50%;
-} */
-/* .personajes .rost figcaption img{
-    width: 20%;
-    margin-left: 100px;
-} */
+
 .personajes .varl{
     width: 100%;
     margin-bottom: 20px;
@@ -110,18 +110,7 @@ body{
     margin-left: 20px;
     font-weight: 100;
 }
-.personajes .varl figcaption{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-/* .personajes .varl figcaption span{
-    width: 50%;
-} */
-/* .personajes .varl figcaption img{
-    width: 20%;
-    margin-left: 100px;
-} */
+
 .personajes .avad{
     width: 100%;
     margin-bottom: 20px;
@@ -130,18 +119,7 @@ body{
     margin-left: 20px;
     font-weight: 100;
 }
-.personajes .avad figcaption{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-/* .personajes .avad figcaption span{
-    width: 50%;
-} */
-/* .personajes .avad figcaption img{
-    width: 20%;
-    margin-left: 100px;
-} */
+
 .personajes .erend{
     width: 100%;
     margin-bottom: 20px;
@@ -150,18 +128,7 @@ body{
     margin-left: 20px;
     font-weight: 100;
 }
-.personajes .erend figcaption{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-/* .personajes .erend figcaption span{
-    width: 50%;
-} */
-/* .personajes .erend figcaption img{
-    width: 20%;
-    margin-left: 100px;
-} */
+
 .personajes .vanasha{
     width: 100%;
     margin-bottom: 20px;
@@ -170,18 +137,67 @@ body{
     margin-left: 20px;
     font-weight: 100;
 }
-.personajes .vanasha figcaption{
+
+.maquinas{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0.884);
+    background-image: url(/imgs/maquinas-pelea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.maquinas .mq-1{
+    background-color: rgba(90, 90, 90, 0.685);    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
     align-items: center;
 }
-/* .personajes .vanasha figcaption span{
+.maquinas .mq-1 h2{
+    width: 100%;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.maquinas .mq-1 p{
+    width: 70%;
+}
+.maquinas img{
+    width: 100%;
+    padding-left: 10px;
+}
+.maquinas h4{
+    color: white;
+    font-size: 2rem;
+    margin: 10px 0 10px 5px;
+}
+.maquinas p{
+    color: white;
+    padding:0 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.maquinas .mq-2{
+    background-color: rgba(90, 90, 90, 0.685);    width: 50%;
+    height:auto;
+}
+.maquinas .mq-3{
+    background-color: rgba(90, 90, 90, 0.685);
     width: 50%;
-} */
-/* .personajes .vanasha figcaption img{
-    width: 20%;
-    margin-left: 100px;
-} */
+}
+.maquinas .mq-3 figcaption{
+    display: flex;
+    flex-direction: column;
+}
+.maquinas .mq-3 figcaption .tormenta{
+    width: 56%;
+    align-self: center;
+}
 
 .footer{
     height: auto;
@@ -208,6 +224,7 @@ body{
 .footer ul li a{
     text-decoration: none;
     align-items: center;
+    color: black;
 }
 .footer ul li img{
     width: 30px;

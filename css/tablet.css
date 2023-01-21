@@ -121,7 +121,21 @@
 .resumen-pj p{
     text-align: left;
     width: 100%;
+    padding-left: 15px;
 }
-.container{
-    margin: 0;
+.personajes div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.personajes figcaption{
+    align-items: flex-start;
+}
+.personajes h2{
+    margin: 20px 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.personajes img{
+    width: 25%;
+    margin-right: 50px;
 }

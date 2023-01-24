@@ -41,7 +41,7 @@ body{
 .resumen{
     width: 100%;
     height: 70vh;
-    background-image:url("/imgs/aloy-fondo.jpg");
+    background-image:url(../imgs/aloy-fondo.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ body{
     height: auto;
     color: rgb(0, 0, 0);
     width: 100%;
-    background:url(./imgs/fondo.jpg);
+    background:url(../imgs/fondo.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 100vh;
@@ -102,7 +102,7 @@ body{
     width: 100%;
     height: auto;
     /* background-color: rgba(37, 37, 37, 0.63); */
-    background-image: url(./imgs/corruptor.png);
+    background-image: url(../imgs/corruptor.png);
     background-repeat: no-repeat;
     background-size: 80vh;
     background-position: right;
@@ -250,7 +250,7 @@ body{
 .footer{
     height: auto;
     width: 100%;
-    background-image: url(./imgs/Logo_Horizon_Zero_Dawn.svg.png);
+    background-image: url(../imgs/Logo_Horizon_Zero_Dawn.svg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

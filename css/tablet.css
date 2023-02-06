@@ -1,3 +1,6 @@
+.inactive{
+    display: none;
+}
 .resumen{
     background-image: none;
     height: auto;
@@ -123,19 +126,31 @@
     width: 100%;
     padding-left: 15px;
 }
-.personajes div{
+.personajes{
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+}
+.personajes-button{
+    position: absolute;
+    top: 40px;
+    align-self: center;
+    margin-bottom: 20px;
 }
 .personajes figcaption{
     align-items: flex-start;
 }
 .personajes h2{
-    margin: 20px 0 10px 0;
+    margin: 30px 0 10px 0;
     text-align: center;
     width: 100%;
 }
 .personajes img{
     width: 25%;
     margin-right: 50px;
+}
+.personajes span{
+    margin-bottom: 20px;
 }

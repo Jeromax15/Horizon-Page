@@ -7,6 +7,9 @@ body{
     border-bottom: none;
     padding: 0;
 }
+.inactive{
+    display: none;
+}
 .logo{
     display: flex;
     width: 100%;
@@ -79,6 +82,22 @@ body{
     margin-left: 10px;
     padding: 0;
 }
+.personajes{
+    position: relative;
+    padding: 0;
+}
+.personajes-button{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.personajes-button button{
+    width: 100%;
+}
+.personajes h2{
+    margin-top: 20px;
+}
 .personajes img{
     margin-left:0 ;
     margin-right: 0;
@@ -102,3 +121,4 @@ body{
 .maquinas .mq-3{
     width: 100%;
 }
+

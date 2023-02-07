@@ -18,6 +18,7 @@ buttonAvad.addEventListener('click', changePersonaje.bind(this, "avad"));
 buttonVanasha.addEventListener('click', changePersonaje.bind(this, "vanasha"))
 buttonErend.addEventListener('click', changePersonaje.bind(this, "erend"))
 
+
 function changePersonaje(personaje){
 titleH2.innerHTML= ""
     if (personaje == "rost" ){

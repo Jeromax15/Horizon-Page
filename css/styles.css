@@ -10,6 +10,9 @@ body{
     font-size: 1.8rem;
     font-family: 'IBM Plex Mono', monospace;
 }
+.inactive{
+    display: none;
+}
 
 .header{
     display: flex;

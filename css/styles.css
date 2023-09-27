@@ -35,6 +35,13 @@ body{
     text-decoration: none;
     margin: 0 10px;
     color: rgb(0, 0, 0);
+    transition: .5s ease;
+}
+.nav ul li a:hover{
+
+    color: #0073ff;
+    transition: .5s ease;
+
 }
 .container{
     display: flex;
@@ -67,7 +74,8 @@ body{
     justify-content: end;
     height: auto;
     color: rgb(0, 0, 0);
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     background:url(../imgs/fondo.jpg);
     background-position: left;
     background-repeat: no-repeat;
@@ -89,20 +97,26 @@ body{
 }
 .p2{
     /* background-color: rgba(0, 0, 0, 0.137); */
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
 }
-.c1, .c2, .c3{
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
     height: auto;
     color: white;
     width: 33%;
     background-color: rgba(68, 63, 63, 0.5);
     margin: 0 20px;
     padding:20px 15px ;
+
+}
+.c1 h3, .c2 h3, .c3 h3, .c4 h3, .c5 h3, .c6 h3, .c7 h3, .c8 h3, .c9 h3{
+        cursor: pointer;
 }
 .p3{
     margin: 40px 0;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: auto;
     /* background-color: rgba(37, 37, 37, 0.63); */
     background-image: url(../imgs/corruptor.png);
@@ -126,7 +140,8 @@ body{
 }
 .p4{
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     /* background-color: rgba(0, 0, 0, 0.137); */
     background-color:  rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
@@ -141,7 +156,8 @@ body{
     padding:20px 15px ;
 }
 .armas{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,25 +165,7 @@ body{
     background-color: black;
     padding-bottom: 30px;
 }
-.armas h2{
-    margin: 40px 0;
-    font-weight: 400;
-    font-size: 3.5rem;
-    width: 100%;
-    text-align: center;
-}
-.armas h2 a{
-    color: white;
-    text-decoration: none;
-}
-.armas picture{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.armas img{
-    width: 80%;
-}
+
 .p5{
     width: 100%;
     height: auto;
@@ -203,7 +201,8 @@ body{
 .p6{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 90%;
+    margin: 0 auto;
     background: rgb(99,99,99);
     background: linear-gradient(180deg, rgba(99,99,99,1) 0%, rgba(255,255,255,1) 100%);
 }
@@ -219,24 +218,26 @@ body{
 .p7{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(106,77,0,1) 52%, rgba(42,30,0,1) 100%);
+    width: 90%;
+    margin: 0 auto;
+    /* background: rgb(255,255,255); */
+    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(106,77,0,1) 52%, rgba(42,30,0,1) 100%); */
 }
 .p7 .pjs{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .p7 .maquinas{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .p7 img{
-    width: 80vw;
+    width: 100%;
+    margin: 20px;
 }
 .p7 h2{
     width: 100%;
@@ -251,40 +252,33 @@ body{
 }
 
 .footer{
-    height: auto;
     width: 100%;
-    background-image: url(../imgs/Logo_Horizon_Zero_Dawn.svg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
+    height: 100px;
+    background-color: #000;
+    display: inline-block;
 }
-.footer span{
-    width: 100%;
-}
-.footer ul{
-    display: flex;
-    flex-direction: column;
-}
-.footer ul .red{
-    display: flex;
-    margin: 8px 0;
-    align-items: center;
-}
-.footer ul li a{
+footer a{
     text-decoration: none;
-    align-items: center;
-    color: black;
-}
-.footer ul li img{
-    width: 30px;
-    margin-right: 5px;
-}
+    color: #fff;
+    font-size: 3rem;
+    transition: .5s ease;
 
-/* @media (max-width: 1500px){
-    .p1{
-        background-size: 70vh;
-    }
-
-} */
+}
+footer a:hover{
+    transition: .5s ease;
+    color: #0073ff;
+}
+footer .nombre{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+footer .redes{
+    width: 70%;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
